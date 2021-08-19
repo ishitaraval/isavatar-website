@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ishAvatar</title>
+    <meta name="description" content="get best deals on iPhone products">
+    <meta name="author" content="ishita raval">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/gifstyle.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="index.html" class="logo">
+        <img src="img/ishavatar_animations.png">
+        <!-- Site logo --></a>
+
+      <!-- Navigation menu and toggle button (non-functional) -->
+      <button type="button" class="nav-toggle">
+        <span class="material-icons">menu</span>
+      </button>
+      <nav aria-label="Primary" class="navigation">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Animations</a>
+            <ul class="submenu">
+              <li><a href="image.html" style="background-color: rgb(116, 18, 18); color:white; border-radius: 8em; margin-top: 0.5em;">Graphic Design</a></li>
+              <li><a href="video.html"  style="background-color: rgb(116, 18, 18); color:white ; border-radius: 8em; margin-top: .5em;">Videos</a></li>
+              <li><a href="gif.html" style="background-color: rgb(116, 18, 18); color:white; border-radius: 8em;margin-top: .5em;">Gifs</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutus.html">AboutUs</a></li>
+          <li><a href="contact-us form.html">ContactUs</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+
+      <!-- Search for a product (non-functional) -->
+      
+
+      
+    </header>
+
+     <main class="products">
+      <aside class="sidebar">
+  
+       <!-- Filtering product form -->
+       <form class="reviews">
+         <h2>Reviews</h2>
+
+         <div class="review-options" id="sort">
+           <form action="" class="form-cont"></form>
+            
+             <fieldset id="review-customer">
+               <legend>Reviws By Customers</legend>
+               <ul class="filter-list" style="list-style: circle; list-style-position: inherit;">
+                
+                 <li> <label for="review-1">Best services at lower price</label></li>
+                 <li><label for="review-2">Awesome work </label></li>
+                 <li> <label for="review-3">Impressive </label></li>
+                 <li><label for="review-4">Perfect designing </label></li>
+                 <li><label for="review-5">Improvements were done immediately when asked for too good</label></li>
+               </ul>
+             </fieldset>
+            </form>
+           <fieldset>
+            <legend>Ratings (above)</legend>
+            <ul class="filter-list" style="color: rgb(228, 224, 22);">
+              <li>
+                <input type="radio" name="rating" value="4" id="aboveFour">
+                <label for="aboveFour" class="rating">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="3" id="aboveThree">
+                <label for="aboveThree" class="rating">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="2" id="aboveTwo">
+                <label for="aboveTwo" class="rating">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <div>
+                 <input type="radio" name="rating" value="1" id="aboveOne">
+                 <label for="aboveOne" class="rating">
+                   <span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                 </label>
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+    
+          <button type="submit" id="reviws" style="margin-top: 2em;" onclick="reviewpop()">Submit Reviws</button>
+         </div>
+       </form>
+      </aside>  
+
+      <section id="productTable" class="results" style="text-align: center;">
+        <h2 class="subheading">Gifs</h2>
+        <div id="iproducts">
+          
+        </div>
+        <div>
+          <ul style="list-style:none;">
+            <li> Address: Cedar brae Mall,3495 Lawerence Avenue East,
+            Toronto ONM1H 1B3
+            </li>
+            <li> Email: <a href="#"> ishavatar@gmail.com</a>
+            </li>
+            <li> Website: <a href ="#"> www.ishavatar.com </a>
+            </li>
+          </ul>
+        </div>
+
+        
+       
+     </section>
+
+      
+    </main>
+
+    
+    <footer class="page-footer">
+      <div class="main-footer">
+           <nav aria-label="Legal" class="footer-nav">
+            <ul class="legal">
+              <li><a href="#" style="color: black; text-decoration: underline;">Terms of Use</a></li>
+              <li><a href="#" style="color: black; text-decoration: underline;">Privacy Policy</a></li>
+              <li><a href="#" style="color: black; text-decoration: underline;">Accessibility Policy</a></li>
+            </ul>
+          </nav>
+          <p class="copyright">&copy; Copyright, 1991.</p>
+        </div>
+      
+      </footer>
+    
+    <script src='Js/gifscript.js'></script>
+    <script src='Js/filter.js'></script>
+  </body>
+</html>
