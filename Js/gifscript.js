@@ -1,35 +1,11 @@
 const productAr =[
-  {
-    iprodt_img: 'artemis-logo.jpg',
-    iprodt_name: 'Gaming Logo',
-    iprodt_link: 'product .html',
-    iprodt_descrip: 'Here is a gaming logo that might entice a user',
-    iprodt_ratings: 4.4,
-    
- },
-  {
-       iprodt_img: 'gd-1.jpg',
-       iprodt_name: 'Adobe Illustrator Graphic design',
-       iprodt_link: 'product .html',
-       iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
-       iprodt_ratings: 4.4,
-       
-    },
     {
-        iprodt_img: 'gd-2.jpg',
-        iprodt_name: 'Photography Company Graphic Design',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
-        iprodt_ratings: 4.4,
-     },
-     {
-        iprodt_img: 'ad.jpg',
-        iprodt_name: 'iPhone  Facebook Advertisment',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a shot of Advertisment that might entice a user',
-        iprodt_ratings: 4.4,
-        
-     },
+      iprodt_img: 'DSB.gif',
+      iprodt_name: 'DSB logo Reveal',
+      iprodt_link: 'product .html',
+      iprodt_descrip: 'Here is a gif that might entice a user',
+      iprodt_ratings: 4.4,
+    },
      {
         iprodt_img: 'lamb.gif',
         iprodt_name: 'Lamborghini Gif',
@@ -38,10 +14,17 @@ const productAr =[
         iprodt_ratings: 4.4,
         
      },
-     
      {
-        iprodt_img: 'DSB.gif',
-        iprodt_name: 'DSB logo Reveal',
+        iprodt_img: 'lamborgini.gif',
+        iprodt_name: 'lamborghini Preloader',
+        iprodt_link: 'product .html',
+        iprodt_descrip: 'Here is a  lamborgini gif that might entice a user',
+        iprodt_ratings: 4.4,
+        
+     },
+     {
+        iprodt_img: 'starbucks.gif',
+        iprodt_name: 'starbucks logo Reveal',
         iprodt_link: 'product .html',
         iprodt_descrip: 'Here is a gif that might entice a user',
         iprodt_ratings: 4.4,
@@ -95,6 +78,3 @@ function popup(){
 function reviewpop(){
   alert("Ratings are Submitted");
 }
-
-
-

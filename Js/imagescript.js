@@ -1,49 +1,50 @@
 const productAr =[
-  {
+    
+    {
+      iprodt_img: 'dragon-art.png',
+      iprodt_name: 'Dragon Design',
+      iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
+      iprodt_ratings: 4.4,
+      
+   },
+   {
     iprodt_img: 'artemis-logo.jpg',
     iprodt_name: 'Gaming Logo',
-    iprodt_link: 'product .html',
     iprodt_descrip: 'Here is a gaming logo that might entice a user',
     iprodt_ratings: 4.4,
     
  },
-  {
-       iprodt_img: 'gd-1.jpg',
-       iprodt_name: 'Adobe Illustrator Graphic design',
-       iprodt_link: 'product .html',
-       iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
-       iprodt_ratings: 4.4,
-       
-    },
     {
         iprodt_img: 'gd-2.jpg',
         iprodt_name: 'Photography Company Graphic Design',
-        iprodt_link: 'product .html',
         iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
         iprodt_ratings: 4.4,
      },
      {
         iprodt_img: 'ad.jpg',
         iprodt_name: 'iPhone  Facebook Advertisment',
-        iprodt_link: 'product .html',
         iprodt_descrip: 'Here is a shot of Advertisment that might entice a user',
         iprodt_ratings: 4.4,
         
      },
      {
-        iprodt_img: 'lamb.gif',
-        iprodt_name: 'Lamborghini Gif',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a gif that might entice a user',
+        iprodt_img: 'coffee-cafe.png',
+        iprodt_name: 'Coffee Cafe Design',
+        iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
         iprodt_ratings: 4.4,
         
      },
-     
      {
-        iprodt_img: 'DSB.gif',
-        iprodt_name: 'DSB logo Reveal',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a gif that might entice a user',
+      iprodt_img: 'gd-1.jpg',
+      iprodt_name: 'Adobe Illustrator Graphic design',
+      iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
+      iprodt_ratings: 4.4,
+      
+   },
+     {
+        iprodt_img: 'cafe-decor.png',
+        iprodt_name: 'Cafe Decor Design',
+        iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
         iprodt_ratings: 4.4,
      }
 ]
@@ -95,6 +96,3 @@ function popup(){
 function reviewpop(){
   alert("Ratings are Submitted");
 }
-
-
-

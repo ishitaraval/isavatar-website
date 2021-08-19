@@ -1,50 +1,23 @@
 const productAr =[
   {
-    iprodt_img: 'artemis-logo.jpg',
-    iprodt_name: 'Gaming Logo',
-    iprodt_link: 'product .html',
-    iprodt_descrip: 'Here is a gaming logo that might entice a user',
-    iprodt_ratings: 4.4,
-    
- },
-  {
-       iprodt_img: 'gd-1.jpg',
-       iprodt_name: 'Adobe Illustrator Graphic design',
-       iprodt_link: 'product .html',
-       iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
+       iprodt_video: 'kinetic-typography.mp4',
+       iprodt_name: 'kinetic Typography',
+       iprodt_descrip: 'Here is a video of starbucks that might entice a user',
        iprodt_ratings: 4.4,
        
     },
     {
-        iprodt_img: 'gd-2.jpg',
-        iprodt_name: 'Photography Company Graphic Design',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a shot of graphic design that might entice a user',
+        iprodt_video: 'DSB.mp4',
+        iprodt_name: 'DSB Logo Reveal',
+        iprodt_descrip: 'Here is a video of DSB that might entice a user',
         iprodt_ratings: 4.4,
      },
      {
-        iprodt_img: 'ad.jpg',
-        iprodt_name: 'iPhone  Facebook Advertisment',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a shot of Advertisment that might entice a user',
+        iprodt_video: 'logo-reveal.mp4',
+        iprodt_name: 'Starbucks Logo Reveal',
+        iprodt_descrip: 'Here is a video of starbucks that might entice a user',
         iprodt_ratings: 4.4,
         
-     },
-     {
-        iprodt_img: 'lamb.gif',
-        iprodt_name: 'Lamborghini Gif',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a gif that might entice a user',
-        iprodt_ratings: 4.4,
-        
-     },
-     
-     {
-        iprodt_img: 'DSB.gif',
-        iprodt_name: 'DSB logo Reveal',
-        iprodt_link: 'product .html',
-        iprodt_descrip: 'Here is a gif that might entice a user',
-        iprodt_ratings: 4.4,
      }
 ]
 
@@ -64,7 +37,7 @@ const setProductsTable = function(product_array){
     article_pro.classList.add('product')
 
     article_pro.innerHTML = 
-    `<img src="img/${iproducts.iprodt_img}" alt="${iproducts.iprodt_name}">
+    `<video controls src="video/${iproducts.iprodt_video}" alt="${iproducts.iprodt_name}">
   
     <div class="prod-details">
       <h3 id="filtername"><a href="${iproducts.iprodt_link}">${iproducts.iprodt_name}</a></h3>
@@ -95,6 +68,4 @@ function popup(){
 function reviewpop(){
   alert("Ratings are Submitted");
 }
-
-
 
